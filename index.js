@@ -75,9 +75,9 @@ message.reply(  'Hier ist eine Liste der Commands: !team ==> Damit kannst du in 
 });
 
 bot.on("guildMemberAdd", function(member){
-    member.guild.channels.find("name", "neue-bewerber").sendMessage(member.toString() + "Neuer Bewerber!");
+    member.guild.channels.find("name", "neue-bewerber").sendMessage(member.toString() + "Herzlich Willkommen!");
 
-    member.addRole(member.guild.roles.find("name", "Bewerber"));
+    member.addRole(member.guild.roles.find("name", "Neu"));
 
 });
 
