@@ -159,10 +159,10 @@ bot.on('ready', function(){
 });
 
 
-bot.on("addRole", function(message){
+bot.on("addRole", function(member, message){
     message.content == ('t1');
 
-    message.author.channel.guild.addRole(guild.roles.find("name", "Team 1"));
+    member.addRole(member.guild.roles.find("name", "Team 1"));
 
 });
 
