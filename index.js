@@ -40,10 +40,13 @@ message.channel.send('Deine Nummer ist: ' + Math.floor(Math.random()*10 + 1))
 });
 
 bot.on("guildMemberAdd", function(member){
-    member.send("Willkommen auf dem Server!");
+    message.member.send("Willkommen auf dem Server!");
+   
 
 
 });
+
+
 
 bot.on('message', function (message){
     if(message.content == 'Join') {
@@ -75,7 +78,7 @@ message.reply(  'Hier ist eine Liste der Commands: !team ==> Damit kannst du in 
 });
 
 bot.on("guildMemberAdd", function(member){
-    member.guild.channels.find("name", "neue-bewerber").sendMessage(member.toString() + "Herzlich Willkommen!");
+    member.guild.channels.find("name", "╔willkommenskanal").sendMessage(member.toString() + "Herzlich Willkommen!");
 
     member.addRole(member.guild.roles.find("name", "Neu"));
 
