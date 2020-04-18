@@ -14,7 +14,7 @@ message.channel.send('Hallo' + message.author +  'wie geht es dir?');
 bot.on('message', function (message){
 if(message.content == PREFIX + 'music')
 {
-message.reply('Die Commands des Music-Bots lauten:                            !play (song) => spielt den gesuchten song ab                                        !disconnect => schmeißt den bot aus deinem Channel             !np => zeigt dir an wie der laufende Song heißt                   !ping => zeigt den ping des bots an          !soundcloud (song) => sucht den Song von Soundclud              !join => befiehlt dem Bot in deinen Channel zu kommen      !lyrics => Zeigt die Lyrics des Songs an       !pause => Pausiert den aktuellen Song          !resume => Spielt einen pausierten Song weiter                    !skip => Spring zum nächsten Song in der Warteschlange');
+message.reply('Die Commands des Music-Bots lauten: \n!play (song) => spielt den gesuchten song ab \n!disconnect => schmeißt den bot aus deinem Channel             !np => zeigt dir an wie der laufende Song heißt                   !ping => zeigt den ping des bots an          !soundcloud (song) => sucht den Song von Soundclud              !join => befiehlt dem Bot in deinen Channel zu kommen      !lyrics => Zeigt die Lyrics des Songs an       !pause => Pausiert den aktuellen Song          !resume => Spielt einen pausierten Song weiter                    !skip => Spring zum nächsten Song in der Warteschlange');
 }
 });
 
