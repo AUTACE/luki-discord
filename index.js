@@ -1,7 +1,7 @@
 console.log('Bot ist online!');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const TOKEN = 'NTU1NDgyMDYyMjIwNDI3Mjg0.Xps0yQ.Wc-_QWrVYClmLg1J0OyF0cxyAjw'
+const TOKEN = 'NTU1NDgyMDYyMjIwNDI3Mjg0.XrKSOw.ycSVr_sMMY-FyR7rNkHZtjHofqc'
 const PREFIX = ('!');
 
 bot.on('message', function (message){
