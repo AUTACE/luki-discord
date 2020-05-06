@@ -1,7 +1,6 @@
 console.log('Bot ist online!');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const TOKEN = 'NTU1NDgyMDYyMjIwNDI3Mjg0.XrKX7Q.DIxJOmtNFyG5uktZjwxWAc-MZFM'
 const PREFIX = ('Ich bin');
 const altPrefix = ('ich bin');
 const oePrefix = ('i bin');
